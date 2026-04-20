@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* —— Light mode (default) —— */
+:root {
+  --background: #ffffff;
+  --foreground: #0d1117;
+
+  --loom-page-bg: #f5f6fa;
+  --loom-sidebar-bg: #ffffff;
+  --loom-topbar-bg: #ffffff;
+  --loom-surface: #ffffff;
+  --loom-surface-2: #f8f9fc;
+  --loom-bg: #f5f6fa;
+  --loom-bg-2: #eef0f6;
+  --loom-border: #e4e7ef;
+  --loom-border-2: #d0d5e8;
+  --loom-text-900: #0d1117;
+  --loom-text-800: #1a202c;
+  --loom-text-700: #2d3748;
+  --loom-text-500: #64748b;
+  --loom-text-600: #475569;
+  --loom-text-400: #94a3b8;
+  --loom-text-300: #b8c4d8;
+  --loom-input-bg: #ffffff;
+  --loom-hover: #f8f9fc;
+  --loom-table-header: #f8f9fc;
+  --loom-table-row-hover: #f5f6fa;
+
+  --loom-blue-50: #f0f7ff;
+  --loom-blue-100: #eff6ff;
+  --loom-red-100: #fef2f2;
+  --loom-amber-100: #fffbeb;
+  --loom-green-tint: #d1fae5;
+
+  --shadow-loom-xs: 0 1px 2px rgba(16, 24, 40, 0.04);
+  --shadow-loom-sm: 0 1px 3px rgba(16, 24, 40, 0.07), 0 1px 2px rgba(16, 24, 40, 0.04);
+  --shadow-loom-xl: 0 24px 48px rgba(16, 24, 40, 0.12), 0 4px 12px rgba(16, 24, 40, 0.06);
+}
+
+/* —— Dark mode —— */
+.dark {
+  --background: #0f1117;
+  --foreground: #e2e8f0;
+
+  --loom-page-bg: #0f1117;
+  --loom-sidebar-bg: #1a1d27;
+  --loom-topbar-bg: #1a1d27;
+  --loom-surface: #1e2130;
+  --loom-surface-2: #252836;
+  --loom-bg: #0f1117;
+  --loom-bg-2: #1a1d27;
+  --loom-border: #2a2d3e;
+  --loom-border-2: #3d4154;
+  --loom-text-900: #e2e8f0;
+  --loom-text-800: #e2e8f0;
+  --loom-text-700: #cbd5e1;
+  --loom-text-500: #94a3b8;
+  --loom-text-600: #94a3b8;
+  --loom-text-400: #64748b;
+  --loom-text-300: #64748b;
+  --loom-input-bg: #252836;
+  --loom-hover: #2a2d3e;
+  --loom-table-header: #252836;
+  --loom-table-row-hover: #2a2d3e;
+
+  --loom-blue-50: rgba(59, 130, 246, 0.12);
+  --loom-blue-100: rgba(59, 130, 246, 0.18);
+  --loom-red-100: rgba(239, 68, 68, 0.12);
+  --loom-amber-100: rgba(245, 158, 11, 0.12);
+  --loom-green-tint: rgba(16, 185, 129, 0.12);
+
+  --shadow-loom-xs: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-loom-sm: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.28);
+  --shadow-loom-xl: 0 24px 48px rgba(0, 0, 0, 0.45), 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+body {
+  transition: all 0.3s ease;
+  color: var(--foreground);
+  background: var(--loom-page-bg);
+  font-family: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Amharic (Ethiopic): Noto Sans Ethiopic, slightly larger type & line-height */
+body.locale-am {
+  font-family: var(--font-noto-ethiopic), var(--font-plus-jakarta), ui-sans-serif, system-ui,
+    sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+/* Badge / status colors: softer on dark backgrounds */
+.dark .bg-emerald-100 {
+  background-color: rgba(16, 185, 129, 0.12) !important;
+}
+.dark .text-emerald-600 {
+  color: #34d399 !important;
+}
+.dark .bg-red-100 {
+  background-color: rgba(239, 68, 68, 0.12) !important;
+}
+.dark .text-red-600 {
+  color: #f87171 !important;
+}
+.dark .bg-loom-amber-100,
+.dark .bg-amber-100 {
+  background-color: rgba(245, 158, 11, 0.12) !important;
+}
+.dark .text-loom-amber-600,
+.dark .text-amber-600 {
+  color: #fbbf24 !important;
+}
+.dark .bg-loom-blue-100,
+.dark .bg-blue-100 {
+  background-color: rgba(59, 130, 246, 0.14) !important;
+}
+.dark .text-loom-blue-600,
+.dark .text-blue-600 {
+  color: #60a5fa !important;
+}
+.dark .bg-violet-100 {
+  background-color: rgba(139, 92, 246, 0.14) !important;
+}
+.dark .text-violet-600 {
+  color: #a78bfa !important;
+}
+.dark .bg-cyan-100 {
+  background-color: rgba(6, 182, 212, 0.14) !important;
+}
+.dark .text-cyan-600 {
+  color: #22d3ee !important;
+}
+.dark .bg-orange-100 {
+  background-color: rgba(249, 115, 22, 0.14) !important;
+}
+.dark .text-orange-600 {
+  color: #fb923c !important;
+}
+.dark .bg-slate-100 {
+  background-color: rgba(148, 163, 184, 0.12) !important;
+}
+.dark .text-slate-600 {
+  color: #94a3b8 !important;
+}
+.dark .bg-red-50 {
+  background-color: rgba(239, 68, 68, 0.12) !important;
+}
+.dark .border-red-200 {
+  border-color: rgba(248, 113, 113, 0.35) !important;
+}
+.dark .text-red-800 {
+  color: #fecaca !important;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

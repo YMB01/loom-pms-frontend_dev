@@ -1,0 +1,873 @@
+{
+  "language": {
+    "english": "English",
+    "amharic": "Amharic",
+    "ariaToggle": "Switch language"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "properties": "Properties",
+    "units": "Units",
+    "tenants": "Tenants",
+    "leases": "Leases",
+    "invoices": "Invoices",
+    "payments": "Payments",
+    "maintenance": "Maintenance",
+    "smsCenter": "SMS & WhatsApp",
+    "reports": "Reports",
+    "marketplace": "Marketplace",
+    "tenantPortal": "Tenant Portal",
+    "settings": "Settings"
+  },
+  "navSection": {
+    "overview": "Overview",
+    "people": "People",
+    "finance": "Finance",
+    "operations": "Operations",
+    "system": "System"
+  },
+  "brand": {
+    "title": "Loom PMS",
+    "tagline": "✨ AI-powered PMS"
+  },
+  "sidebar": {
+    "closeNav": "Close navigation",
+    "userFallback": "User",
+    "member": "Member",
+    "signOut": "Sign out",
+    "badgeNew": "NEW"
+  },
+  "mobileNav": {
+    "primary": "Primary navigation",
+    "more": "More",
+    "closeMenu": "Close menu",
+    "moreNav": "More navigation",
+    "close": "Close"
+  },
+  "topbar": {
+    "userFallback": "User",
+    "openNav": "Open navigation menu",
+    "changeCurrency": "Change currency",
+    "addNew": "Add New",
+    "onboardTenant": "+ Onboard Tenant",
+    "moreActions": "More actions",
+    "currency": "Currency",
+    "selectCurrency": "Select Currency",
+    "amountsUpdate": "All amounts will update to your selected currency",
+    "aiPowered": "✨ AI-powered",
+    "close": "Close"
+  },
+  "routes": {
+    "dashboard": {
+      "title": "Dashboard",
+      "crumb": "Loom PMS / Overview"
+    },
+    "properties": {
+      "title": "Properties",
+      "crumb": "Loom PMS / Properties"
+    },
+    "units": {
+      "title": "Units",
+      "crumb": "Loom PMS / Units"
+    },
+    "tenants": {
+      "title": "Tenants",
+      "crumb": "Loom PMS / Tenants"
+    },
+    "leases": {
+      "title": "Leases",
+      "crumb": "Loom PMS / Leases"
+    },
+    "invoices": {
+      "title": "Invoices",
+      "crumb": "Loom PMS / Invoices"
+    },
+    "payments": {
+      "title": "Payments",
+      "crumb": "Loom PMS / Payments"
+    },
+    "maintenance": {
+      "title": "Maintenance",
+      "crumb": "Loom PMS / Maintenance"
+    },
+    "sms": {
+      "title": "SMS & WhatsApp",
+      "crumb": "Loom PMS / SMS & WhatsApp"
+    },
+    "reports": {
+      "title": "Reports",
+      "crumb": "Loom PMS / Reports"
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "crumb": "Loom PMS / Marketplace"
+    },
+    "portal": {
+      "title": "Tenant Portal",
+      "crumb": "Loom PMS / Tenant Portal"
+    },
+    "settings": {
+      "title": "Settings",
+      "crumb": "Loom PMS / Settings"
+    }
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "noData": "No data found",
+    "actions": "Actions",
+    "view": "View",
+    "download": "Download",
+    "sendSms": "Send SMS",
+    "retry": "Retry",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "optional": "Optional",
+    "required": "Required",
+    "allProperties": "All Properties",
+    "dash": "—",
+    "units": "units",
+    "occShort": "occ."
+  },
+  "pagination": {
+    "showing": "Showing",
+    "of": "of",
+    "page": "Page"
+  },
+  "list": {
+    "view": "View",
+    "table": "Table",
+    "cards": "Cards"
+  },
+  "query": {
+    "loadFailed": "Failed to load",
+    "couldNotLoadDashboard": "Could not load dashboard."
+  },
+  "dashboard": {
+    "totalProperties": "Total Properties",
+    "totalUnits": "Total Units",
+    "occupancyRate": "Occupancy Rate",
+    "totalTenants": "Total Tenants",
+    "monthlyRevenue": "Monthly Revenue",
+    "pendingInvoices": "Pending Invoices",
+    "overdueInvoices": "Overdue Invoices",
+    "openMaintenance": "Open Maintenance",
+    "recentPayments": "Recent Payments",
+    "recentMaintenance": "Recent Maintenance",
+    "live": "Live",
+    "target90": "Target 90%",
+    "active": "Active",
+    "mtd": "MTD",
+    "dueSoon": "Due soon",
+    "action": "Action",
+    "open": "Open",
+    "revenueOverview": "Revenue Overview",
+    "collectedRent6m": "Expected vs collected — last 6 months",
+    "collected": "Collected",
+    "expectedRevenue": "Expected",
+    "collectedRevenue": "Collected",
+    "chartNoRevenueData": "No revenue data for this period.",
+    "revenueByPropertyTitle": "Revenue by property",
+    "paymentMethodMix": "Payment method mix",
+    "pieMaintenance": "Maintenance",
+    "chartEmpty": "No data",
+    "amount": "Amount",
+    "fiscalYear": "Fiscal year {year} — all figures in ETB",
+    "viewAll": "View all →",
+    "occupancyRateTitle": "Occupancy Rate",
+    "occupied": "Occupied",
+    "vacant": "Vacant",
+    "noPaymentsYet": "No payments recorded yet.",
+    "tenant": "Tenant",
+    "unit": "Unit",
+    "method": "Method",
+    "status": "Status",
+    "updating": "Updating…",
+    "noMaintenanceYet": "No maintenance requests yet.",
+    "priority": "Priority",
+    "smsProvider": "SMS Provider",
+    "primary": "Primary",
+    "sentToday": "Sent today",
+    "sentTotal": "Sent (total)",
+    "deliveryRate": "Delivery rate",
+    "failed": "Failed",
+    "queued": "Queued",
+    "openSmsCenter": "Open SMS Center →",
+    "pieOccupied": "Occupied",
+    "pieVacant": "Vacant",
+    "occPercentTrend": "{pct}% occ."
+  },
+  "properties": {
+    "addProperty": "Add Property",
+    "propertyName": "Property Name",
+    "property": "Property",
+    "location": "Location",
+    "type": "Type",
+    "totalUnits": "Total Units",
+    "occupied": "Occupied",
+    "vacant": "Vacant",
+    "manage": "Manage",
+    "searchPlaceholder": "Search properties…",
+    "noMatch": "No properties match this filter.",
+    "occupancy": "Occupancy",
+    "rentRange": "Rent range"
+  },
+  "units": {
+    "addUnit": "Add Unit",
+    "searchPlaceholder": "Search units…",
+    "noMatch": "No units match this filter.",
+    "property": "Property",
+    "unitLabel": "Unit",
+    "type": "Type",
+    "size": "Size",
+    "floor": "Floor",
+    "beds": "Beds",
+    "rent": "Rent",
+    "status": "Status",
+    "propertyRef": "Property #{id}",
+    "sizeSqm": "{sqm} m²"
+  },
+  "tenants": {
+    "onboardTenant": "Onboard Tenant",
+    "tenantName": "Tenant Name",
+    "name": "Name",
+    "phone": "Phone",
+    "unit": "Unit",
+    "monthlyRent": "Monthly Rent",
+    "balance": "Balance",
+    "status": "Status",
+    "active": "Active",
+    "overdue": "Overdue",
+    "partial": "Partial",
+    "searchPlaceholder": "Search tenants…",
+    "noMatch": "No tenants match this filter.",
+    "email": "Email",
+    "idNumber": "ID number",
+    "backToList": "Back to tenants",
+    "paymentHistoryTitle": "Payment history (last 6 months)",
+    "paymentHistorySubtitle": "Amount paid each month versus expected rent from the active lease. Bars are red when payment is far below expected.",
+    "paidBar": "Paid",
+    "expectedRent": "Expected rent",
+    "chartEmpty": "No payment history for this period."
+  },
+  "leases": {
+    "newLease": "New Lease",
+    "searchPlaceholder": "Search leases…",
+    "noMatch": "No leases match this filter.",
+    "tenant": "Tenant",
+    "unit": "Unit",
+    "start": "Start",
+    "end": "End",
+    "rent": "Rent",
+    "status": "Status"
+  },
+  "invoices": {
+    "generateMonthly": "Generate Monthly",
+    "invoiceNumber": "Invoice Number",
+    "amount": "Amount",
+    "dueDate": "Due Date",
+    "status": "Status",
+    "pending": "Pending",
+    "paid": "Paid",
+    "overdue": "Overdue",
+    "partial": "Partial",
+    "collect": "Collect",
+    "remind": "Remind",
+    "searchPlaceholder": "Search invoices…",
+    "noMatch": "No invoices match this filter.",
+    "tenant": "Tenant",
+    "unit": "Unit",
+    "property": "Property",
+    "invoice": "Invoice",
+    "due": "Due",
+    "smsCol": "SMS",
+    "pipelineTitle": "Invoice pipeline",
+    "pipelineHint": "Click a card to filter the list below. Click the same card again to show all invoices.",
+    "clearPipelineFilter": "Clear card filter",
+    "totalAmount": "Total:"
+  },
+  "payments": {
+    "recordPayment": "Record Payment",
+    "date": "Date",
+    "method": "Method",
+    "reference": "Reference",
+    "amount": "Amount",
+    "telebirr": "Telebirr",
+    "cbeBirr": "CBE Birr",
+    "cash": "Cash",
+    "bankTransfer": "Bank Transfer",
+    "searchPlaceholder": "Search payments…",
+    "noMatch": "No payments match this filter.",
+    "tenant": "Tenant",
+    "property": "Property",
+    "invoice": "Invoice",
+    "status": "Status",
+    "receipt": "Receipt"
+  },
+  "maintenance": {
+    "logRequest": "Log Request",
+    "title": "Title",
+    "priority": "Priority",
+    "status": "Status",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "urgent": "Urgent",
+    "open": "Open",
+    "inProgress": "In Progress",
+    "resolved": "Resolved",
+    "searchPlaceholder": "Search maintenance…",
+    "noMatch": "No maintenance records match this filter.",
+    "unit": "Unit",
+    "property": "Property",
+    "created": "Created",
+    "opened": "Opened",
+    "statusOverviewTitle": "Status overview",
+    "chartBarHint": "Click a bar to filter the list below. Click the same bar again to clear.",
+    "clearChartFilter": "Clear chart filter"
+  },
+  "sms": {
+    "tabSms": "SMS",
+    "tabWhatsapp": "WhatsApp",
+    "searchPlaceholder": "Search SMS logs…",
+    "searchExtended": "Search SMS (number, message, trigger)…",
+    "searchExtendedWa": "Search WhatsApp (number, message, trigger)…",
+    "to": "To",
+    "noMatch": "No SMS logs match this filter.",
+    "noMatchWa": "No WhatsApp logs match this filter.",
+    "recipient": "Recipient",
+    "message": "Message",
+    "status": "Status",
+    "sentAt": "Sent at",
+    "trigger": "Trigger",
+    "provider": "Provider",
+    "searchPlaceholderDetail": "Search SMS (number, message, trigger)…"
+  },
+  "reports": {
+    "title": "Reports",
+    "subtitle": "Generate PDF reports from live data.",
+    "filterMonth": "Month (occupancy)",
+    "filterProperty": "Property filter",
+    "revenueMonth": "Month",
+    "revenueYear": "Year",
+    "smsMonth": "SMS month",
+    "smsYear": "SMS year",
+    "cardOccupancy": "Occupancy",
+    "descOccupancy": "Units by status for a month.",
+    "cardRevenue": "Revenue",
+    "descRevenue": "Payments collected in the selected month.",
+    "cardOverdue": "Overdue",
+    "descOverdue": "All overdue invoices.",
+    "cardMaintenance": "Maintenance",
+    "descMaintenance": "Maintenance requests (optional property filter).",
+    "cardLeases": "Leases",
+    "descLeases": "Lease register and end dates.",
+    "cardSms": "SMS usage",
+    "descSms": "SMS logs for the selected month.",
+    "generatePdf": "Download PDF"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Company profile, team, SMS, branding, and subscription.",
+    "tabProfile": "Company",
+    "tabPassword": "Password",
+    "tabTeam": "Team",
+    "tabSms": "SMS",
+    "tabBranding": "Branding",
+    "tabSubscription": "Subscription",
+    "companyName": "Company name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "currency": "Currency (ISO)",
+    "save": "Save changes",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm new password",
+    "updatePassword": "Update password",
+    "confirmRemove": "Remove this team member?",
+    "remove": "Remove",
+    "memberName": "Name",
+    "memberEmail": "Email",
+    "roleManager": "Property manager",
+    "roleAdmin": "Company admin",
+    "invite": "Invite member",
+    "smsHint": "Uses company Africa's Talking or Twilio credentials from server .env unless overridden here.",
+    "smsKeySet": "API key is stored.",
+    "smsProvider": "SMS provider",
+    "smsApiKey": "API key (optional override)",
+    "smsSenderId": "Sender ID",
+    "saveSms": "Save SMS settings",
+    "brandName": "Display name",
+    "brandNamePlaceholder": "Shown in the sidebar",
+    "primaryColor": "Primary color",
+    "logo": "Logo",
+    "saveBranding": "Save branding",
+    "upgradeBasic": "Upgrade to Basic",
+    "upgradePro": "Upgrade to Pro",
+    "tempPassword": "Temporary password for new user: {password}"
+  },
+  "marketplace": {
+    "buildingBanner": "🏪 Building Services Marketplace",
+    "heroTitle": "Everything your building needs,",
+    "heroTitleLine2": "in one place",
+    "heroSubtitle": "Order supplies, book services, and hire crews — all tracked in your PMS",
+    "services": "Services",
+    "sameDay": "Same-day",
+    "categoriesLabel": "Categories",
+    "availability": "Availability",
+    "avgRating": "Avg Rating",
+    "available": "available",
+    "searchCategory": "Search {category}…",
+    "sortDefault": "Sort: Default",
+    "sortPriceAsc": "Price: Low to High",
+    "sortPriceDesc": "Price: High to Low",
+    "sortRating": "Top Rated",
+    "cart": "🛒 Cart ({count})",
+    "cartToast": "Cart: {count} item(s) — checkout coming soon",
+    "noItemsSearch": "No items match your search.",
+    "orderTitle": "Order",
+    "orderWithName": "Order: {name}",
+    "completeOrder": "Complete your order details below",
+    "placeOrder": "Place order",
+    "confirmOrder": "Confirm Order",
+    "addToCart": "Add to Cart",
+    "inCart": "✓ In Cart",
+    "orderNow": "Order Now",
+    "assignProperty": "Assign to property",
+    "selectNext": "— Select on next step —",
+    "quantity": "Quantity",
+    "preferredDate": "Preferred date",
+    "specialInstructions": "Special instructions",
+    "instructionsPlaceholder": "Access instructions, parking, etc.",
+    "item": "Item",
+    "unitPrice": "Unit price",
+    "total": "Total",
+    "availabilityLine": "⚡ {eta} availability",
+    "badgeHot": "🔥 HOT",
+    "badgeNew": "NEW",
+    "badgeSale": "SALE",
+    "addedToCart": "🛒 \"{name}\" added to cart",
+    "removedFromCart": "Removed \"{name}\" from cart",
+    "categories": {
+      "materials": "Materials and Supplies",
+      "cleaning": "Cleaning Services",
+      "crews": "Maintenance Crews",
+      "utilities": "Utilities and Delivery"
+    },
+    "catalog": {
+      "m1": {
+        "name": "ABC Fire Extinguisher 5kg",
+        "desc": "Dry powder, suitable for Class A, B & C fires. Certified & inspected.",
+        "eta": ""
+      },
+      "m2": {
+        "name": "Emergency Exit Signs (LED)",
+        "desc": "Battery-backed LED exit signs, UL certified. Pack of 6.",
+        "eta": ""
+      },
+      "m3": {
+        "name": "Smoke Detector Pack x10",
+        "desc": "Interconnected ionisation smoke detectors with 10yr battery.",
+        "eta": ""
+      },
+      "m4": {
+        "name": "First Aid Kit (Large)",
+        "desc": "200-piece commercial first aid kit for buildings up to 50 people.",
+        "eta": ""
+      },
+      "m5": {
+        "name": "CCTV Camera System (8 cam)",
+        "desc": "1080p HD outdoor/indoor cameras, 30-day DVR storage included.",
+        "eta": ""
+      },
+      "m6": {
+        "name": "Water Tanks 2000L",
+        "desc": "UV-resistant polyethylene water storage tank, food grade.",
+        "eta": ""
+      },
+      "m7": {
+        "name": "LED Corridor Lighting Kit",
+        "desc": "Motion-sensor LED strip lighting for corridors, 10m roll.",
+        "eta": ""
+      },
+      "m8": {
+        "name": "Door Access Control System",
+        "desc": "RFID keycard access system, supports 500 cards, weatherproof.",
+        "eta": ""
+      },
+      "m9": {
+        "name": "Intercom System (10 units)",
+        "desc": "Video intercom system for apartment entry, HD camera, app-enabled.",
+        "eta": ""
+      },
+      "c1": {
+        "name": "ProClean Building Services",
+        "desc": "Full commercial cleaning — lobbies, corridors, parking & common areas. Daily, weekly or monthly contracts.",
+        "eta": "Next day"
+      },
+      "c2": {
+        "name": "ShineBright Facilities",
+        "desc": "Specialist high-rise window cleaning, facade washing, pressure cleaning.",
+        "eta": "3-5 days"
+      },
+      "c3": {
+        "name": "FreshSpace Cleaning Co.",
+        "desc": "Deep cleaning service, carpet steam cleaning, upholstery care. End-of-tenancy specialists.",
+        "eta": "Next day"
+      },
+      "c4": {
+        "name": "GreenClean Eco Services",
+        "desc": "Eco-friendly, non-toxic cleaning products. LEED-certified processes for green buildings.",
+        "eta": "2 days"
+      },
+      "c5": {
+        "name": "Elite Janitorial Services",
+        "desc": "24/7 on-call emergency cleaning, biohazard cleanup, water damage response.",
+        "eta": "Same day"
+      },
+      "c6": {
+        "name": "AquaJet Pressure Washing",
+        "desc": "Industrial pressure washing for parking lots, driveways and exteriors.",
+        "eta": "2-3 days"
+      },
+      "cr1": {
+        "name": "Master Plumbers Ltd",
+        "desc": "Licensed plumbers for leaks, pipe bursts, drain unblocking, water heater installation.",
+        "eta": "Same day"
+      },
+      "cr2": {
+        "name": "SafeWire Electricians",
+        "desc": "Certified electricians. Wiring, breaker issues, lighting installation, safety inspections.",
+        "eta": "Same day"
+      },
+      "cr3": {
+        "name": "CoolAir HVAC Experts",
+        "desc": "AC installation, servicing, duct cleaning, heating system repair and maintenance.",
+        "eta": "Next day"
+      },
+      "cr4": {
+        "name": "BuildRight Carpentry",
+        "desc": "Door fitting, flooring, partition walls, kitchen & bathroom fixtures, custom carpentry.",
+        "eta": "2 days"
+      },
+      "cr5": {
+        "name": "PaintPro Decorators",
+        "desc": "Interior & exterior painting, wallpaper, texture coating. Quick turnaround guaranteed.",
+        "eta": "Next day"
+      },
+      "cr6": {
+        "name": "LiftTech Elevator Services",
+        "desc": "Elevator maintenance, inspection, emergency repair. 24/7 callout available.",
+        "eta": "Same day"
+      },
+      "cr7": {
+        "name": "SecureGuard Security",
+        "desc": "Guard deployment, patrol services, CCTV monitoring, access control management.",
+        "eta": "Next day"
+      },
+      "cr8": {
+        "name": "PestAway Exterminators",
+        "desc": "Cockroach, rodent, bed bug treatment. Certified chemicals, safe for residents.",
+        "eta": "Next day"
+      },
+      "cr9": {
+        "name": "FixIt Handyman Service",
+        "desc": "General repairs, furniture assembly, minor fixes. Flexible scheduling, competitive rates.",
+        "eta": "Same day"
+      },
+      "u1": {
+        "name": "AquaFlow Water Delivery",
+        "desc": "Bulk water delivery 5,000–20,000L. Emergency supply for buildings with water outages.",
+        "eta": "Same day"
+      },
+      "u2": {
+        "name": "CleanBin Waste Management",
+        "desc": "Commercial waste collection, recycling programs, hazardous waste disposal.",
+        "eta": "Weekly"
+      },
+      "u3": {
+        "name": "SwiftGas Cylinder Delivery",
+        "desc": "Commercial LPG cylinders delivered to your building. Bulk pricing available.",
+        "eta": "Next day"
+      },
+      "u4": {
+        "name": "SolarPower Installation",
+        "desc": "Rooftop solar panel installation, battery storage, grid tie-in services.",
+        "eta": "5-7 days"
+      },
+      "u5": {
+        "name": "FiberNet Internet Services",
+        "desc": "Commercial fibre broadband for buildings. Up to 1Gbps, unlimited data.",
+        "eta": "3-5 days"
+      },
+      "u6": {
+        "name": "GenSet Backup Power",
+        "desc": "Generator rental & installation, UPS systems, automatic transfer switches.",
+        "eta": "2 days"
+      }
+    }
+  },
+  "tenantPortal": {
+    "welcome": "Welcome to your tenant portal",
+    "balance": "Balance due",
+    "payRent": "Pay rent",
+    "submitMaintenance": "Request maintenance",
+    "paymentHistory": "Payment history",
+    "leaseDetails": "Lease details",
+    "title": "Tenant Portal",
+    "subtitle": "Pay rent, request maintenance, and view your lease.",
+    "welcomeTenant": "Welcome — use the mobile portal at /portal"
+  },
+  "portal": {
+    "loading": "Loading…",
+    "loadError": "Could not load data.",
+    "loginTitle": "Tenant portal",
+    "loginSubtitle": "Sign in with your phone number.",
+    "phone": "Phone number",
+    "sendCode": "Send code",
+    "otpCode": "6-digit code",
+    "verify": "Verify & continue",
+    "changePhone": "Use a different number",
+    "otpFailed": "Could not send code.",
+    "verifyFailed": "Invalid code.",
+    "nav": {
+      "home": "Home",
+      "pay": "Pay",
+      "invoices": "Invoices",
+      "maintenance": "Fix",
+      "lease": "Lease",
+      "history": "History"
+    },
+    "hello": "Hello,",
+    "balanceDue": "Balance due",
+    "nextDue": "Lease end",
+    "quickPay": "Pay now",
+    "maintenance": "Maintenance",
+    "invoicesTitle": "Invoices",
+    "payTitle": "Pay rent",
+    "selectInvoice": "Invoice",
+    "choose": "Choose…",
+    "amount": "Amount",
+    "method": "Method",
+    "method_telebirr": "Telebirr",
+    "method_cbe_birr": "CBE Birr",
+    "method_cash": "Cash",
+    "method_card": "Card",
+    "submitPayment": "Submit payment",
+    "maintTitle": "Maintenance",
+    "newRequest": "New request",
+    "reqTitle": "Title",
+    "reqDesc": "Description",
+    "submit": "Submit",
+    "leaseTitle": "Lease",
+    "downloadPdf": "Download document",
+    "renewalNote": "Message (optional)",
+    "requestRenewal": "Request renewal",
+    "renewalSent": "Renewal request sent.",
+    "historyTitle": "Payment history",
+    "printReceipt": "Print receipt"
+  },
+  "superAdmin": {
+    "loginTitle": "Super Admin",
+    "companies": "Companies",
+    "billing": "Billing",
+    "backups": "Backups",
+    "messages": "Messages",
+    "dashboard": "Dashboard",
+    "marketplace": "Marketplace"
+  },
+  "superAdminLogin": {
+    "systemOwner": "System owner",
+    "title": "Super Admin sign in",
+    "subtitle": "Separate from customer accounts. Uses SUPER_ADMIN_* credentials from the API .env.",
+    "email": "Email",
+    "password": "Password",
+    "remember": "Remember me",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "backToApp": "Customer login",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email",
+      "passwordRequired": "Password is required"
+    }
+  },
+  "superAdminPanel": {
+    "systemLabel": "System",
+    "productTitle": "Loom Super Admin",
+    "signOut": "Sign out",
+    "marketplaceTitle": "Marketplace",
+    "marketplaceSubtitle": "Categories, vendors, products, and orders across the network.",
+    "tabCategories": "Categories",
+    "tabVendors": "Vendors",
+    "tabProducts": "Products",
+    "tabOrders": "Orders",
+    "colName": "Name",
+    "colIcon": "Icon",
+    "colOrder": "Order",
+    "colActive": "Active",
+    "colCompany": "Company",
+    "colApproved": "Approved",
+    "colVendor": "Vendor",
+    "colCategory": "Category",
+    "colPrice": "Price",
+    "colUnit": "Unit",
+    "colProduct": "Product",
+    "colQty": "Qty",
+    "colTotal": "Total",
+    "colStatus": "Status",
+    "colProperty": "Property",
+    "loading": "Loading…",
+    "empty": "No rows yet.",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "upgrade": {
+    "title": "Upgrade",
+    "paymentSuccess": "Payment successful. Syncing your account…",
+    "checkoutCancelled": "Checkout cancelled."
+  },
+  "section": {
+    "prototype": "This section will mirror the prototype view."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications yet.",
+    "markRead": "Mark read"
+  },
+  "login": {
+    "brandTagline": "✨ AI-powered Property Management",
+    "email": "Email",
+    "password": "Password",
+    "forgot": "Forgot password?",
+    "remember": "Remember me for 7 days",
+    "signIn": "Sign in to Loom PMS",
+    "or": "or",
+    "quickDemo": "Quick demo — sign in as Admin",
+    "needAccess": "Need access?",
+    "contactAdmin": "Contact your system administrator",
+    "demoLogin": "Demo login",
+    "userEmail": "User (email):",
+    "passwordLabel": "Password:",
+    "seedHint": "If this fails, seed the API database:",
+    "inApi": "in",
+    "redirecting": "Redirecting…",
+    "welcomeBack": "Welcome back",
+    "signInSubtitle": "Sign in to your Loom PMS account to continue",
+    "headline1": "AI-powered property",
+    "headline2": "management system.",
+    "sub": "Manage properties globally, collect payments in any currency, and automate operations with AI-powered insights and SMS notifications.",
+    "feat1": "Multi-property & multi-company support",
+    "feat2": "Automated SMS via Africa's Talking & Ethio Telecom",
+    "feat3": "Telebirr & CBE Birr payment integration",
+    "feat4": "Invoicing, receipts & financial reports",
+    "footer": "© 2024 Loom PMS. AI-powered Property Management System.",
+    "placeholderEmail": "Enter your email",
+    "placeholderPassword": "Enter your password",
+    "showPassword": "Show/hide password",
+    "signInFailed": "Sign in failed. Please try again.",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email",
+      "passwordRequired": "Password is required"
+    }
+  },
+  "statusMsg": {
+    "paymentRecorded": "Payment recorded successfully",
+    "tenantOnboarded": "Tenant onboarded successfully",
+    "invoiceGenerated": "Invoice generated",
+    "maintenanceSubmitted": "Maintenance request submitted",
+    "orderPlaced": "Order placed successfully",
+    "propertyAdded": "Property added successfully",
+    "leaseCreated": "Lease created successfully",
+    "tenantCreatedSms": "Tenant created — welcome SMS queued",
+    "tenantCreatedNoSms": "Tenant created (no phone on file — SMS not sent)"
+  },
+  "errors": {
+    "recordPayment": "Could not record payment",
+    "logMaintenance": "Could not log maintenance",
+    "generateInvoices": "Could not generate invoices",
+    "createProperty": "Could not create property",
+    "createLease": "Could not create lease",
+    "createTenant": "Could not create tenant",
+    "failedCreateTenant": "Failed to create tenant",
+    "maintenanceLogged": "Maintenance logged — tenant notified when applicable"
+  },
+  "modals": {
+    "onboardTitle": "Onboard New Tenant",
+    "onboardSubtitle": "A welcome SMS will be sent automatically when a phone number is provided",
+    "creating": "Creating…",
+    "createTenant": "Create Tenant",
+    "idNumber": "ID number"
+  },
+  "currencyNames": {
+    "USD": "US Dollar",
+    "EUR": "Euro",
+    "GBP": "British Pound",
+    "ETB": "Ethiopian Birr",
+    "KES": "Kenyan Shilling",
+    "NGN": "Nigerian Naira",
+    "ZAR": "South African Rand",
+    "GHS": "Ghanaian Cedi",
+    "AED": "UAE Dirham",
+    "INR": "Indian Rupee",
+    "CAD": "Canadian Dollar",
+    "AUD": "Australian Dollar"
+  },
+  "invoiceStatus": {
+    "pending": "Pending",
+    "paid": "Paid",
+    "overdue": "Overdue",
+    "partial": "Partial"
+  },
+  "leaseStatus": {
+    "active": "Active",
+    "expiring": "Expiring",
+    "terminated": "Terminated"
+  },
+  "unitStatus": {
+    "occupied": "Occupied",
+    "available": "Available",
+    "maintenance": "Maintenance"
+  },
+  "maintStatus": {
+    "open": "Open",
+    "in_progress": "In Progress",
+    "resolved": "Resolved"
+  },
+  "smsStatus": {
+    "sent": "Sent",
+    "delivered": "Delivered",
+    "failed": "Failed",
+    "queued": "Queued",
+    "pending": "Pending"
+  },
+  "priority": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "urgent": "Urgent"
+  },
+  "roles": {
+    "admin": "Administrator",
+    "property_manager": "Property Manager",
+    "tenant": "Tenant",
+    "super_admin": "Super Admin",
+    "owner": "Owner",
+    "manager": "Manager",
+    "staff": "Staff"
+  }
+}

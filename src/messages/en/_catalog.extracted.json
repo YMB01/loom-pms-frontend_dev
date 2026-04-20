@@ -1,0 +1,152 @@
+{
+  "m1": {
+    "name": "ABC Fire Extinguisher 5kg",
+    "desc": "Dry powder, suitable for Class A, B & C fires. Certified & inspected.",
+    "eta": ""
+  },
+  "m2": {
+    "name": "Emergency Exit Signs (LED)",
+    "desc": "Battery-backed LED exit signs, UL certified. Pack of 6.",
+    "eta": ""
+  },
+  "m3": {
+    "name": "Smoke Detector Pack x10",
+    "desc": "Interconnected ionisation smoke detectors with 10yr battery.",
+    "eta": ""
+  },
+  "m4": {
+    "name": "First Aid Kit (Large)",
+    "desc": "200-piece commercial first aid kit for buildings up to 50 people.",
+    "eta": ""
+  },
+  "m5": {
+    "name": "CCTV Camera System (8 cam)",
+    "desc": "1080p HD outdoor/indoor cameras, 30-day DVR storage included.",
+    "eta": ""
+  },
+  "m6": {
+    "name": "Water Tanks 2000L",
+    "desc": "UV-resistant polyethylene water storage tank, food grade.",
+    "eta": ""
+  },
+  "m7": {
+    "name": "LED Corridor Lighting Kit",
+    "desc": "Motion-sensor LED strip lighting for corridors, 10m roll.",
+    "eta": ""
+  },
+  "m8": {
+    "name": "Door Access Control System",
+    "desc": "RFID keycard access system, supports 500 cards, weatherproof.",
+    "eta": ""
+  },
+  "m9": {
+    "name": "Intercom System (10 units)",
+    "desc": "Video intercom system for apartment entry, HD camera, app-enabled.",
+    "eta": ""
+  },
+  "c1": {
+    "name": "ProClean Building Services",
+    "desc": "Full commercial cleaning — lobbies, corridors, parking & common areas. Daily, weekly or monthly contracts.",
+    "eta": "Next day"
+  },
+  "c2": {
+    "name": "ShineBright Facilities",
+    "desc": "Specialist high-rise window cleaning, facade washing, pressure cleaning.",
+    "eta": "3-5 days"
+  },
+  "c3": {
+    "name": "FreshSpace Cleaning Co.",
+    "desc": "Deep cleaning service, carpet steam cleaning, upholstery care. End-of-tenancy specialists.",
+    "eta": "Next day"
+  },
+  "c4": {
+    "name": "GreenClean Eco Services",
+    "desc": "Eco-friendly, non-toxic cleaning products. LEED-certified processes for green buildings.",
+    "eta": "2 days"
+  },
+  "c5": {
+    "name": "Elite Janitorial Services",
+    "desc": "24/7 on-call emergency cleaning, biohazard cleanup, water damage response.",
+    "eta": "Same day"
+  },
+  "c6": {
+    "name": "AquaJet Pressure Washing",
+    "desc": "Industrial pressure washing for parking lots, driveways and exteriors.",
+    "eta": "2-3 days"
+  },
+  "cr1": {
+    "name": "Master Plumbers Ltd",
+    "desc": "Licensed plumbers for leaks, pipe bursts, drain unblocking, water heater installation.",
+    "eta": "Same day"
+  },
+  "cr2": {
+    "name": "SafeWire Electricians",
+    "desc": "Certified electricians. Wiring, breaker issues, lighting installation, safety inspections.",
+    "eta": "Same day"
+  },
+  "cr3": {
+    "name": "CoolAir HVAC Experts",
+    "desc": "AC installation, servicing, duct cleaning, heating system repair and maintenance.",
+    "eta": "Next day"
+  },
+  "cr4": {
+    "name": "BuildRight Carpentry",
+    "desc": "Door fitting, flooring, partition walls, kitchen & bathroom fixtures, custom carpentry.",
+    "eta": "2 days"
+  },
+  "cr5": {
+    "name": "PaintPro Decorators",
+    "desc": "Interior & exterior painting, wallpaper, texture coating. Quick turnaround guaranteed.",
+    "eta": "Next day"
+  },
+  "cr6": {
+    "name": "LiftTech Elevator Services",
+    "desc": "Elevator maintenance, inspection, emergency repair. 24/7 callout available.",
+    "eta": "Same day"
+  },
+  "cr7": {
+    "name": "SecureGuard Security",
+    "desc": "Guard deployment, patrol services, CCTV monitoring, access control management.",
+    "eta": "Next day"
+  },
+  "cr8": {
+    "name": "PestAway Exterminators",
+    "desc": "Cockroach, rodent, bed bug treatment. Certified chemicals, safe for residents.",
+    "eta": "Next day"
+  },
+  "cr9": {
+    "name": "FixIt Handyman Service",
+    "desc": "General repairs, furniture assembly, minor fixes. Flexible scheduling, competitive rates.",
+    "eta": "Same day"
+  },
+  "u1": {
+    "name": "AquaFlow Water Delivery",
+    "desc": "Bulk water delivery 5,000–20,000L. Emergency supply for buildings with water outages.",
+    "eta": "Same day"
+  },
+  "u2": {
+    "name": "CleanBin Waste Management",
+    "desc": "Commercial waste collection, recycling programs, hazardous waste disposal.",
+    "eta": "Weekly"
+  },
+  "u3": {
+    "name": "SwiftGas Cylinder Delivery",
+    "desc": "Commercial LPG cylinders delivered to your building. Bulk pricing available.",
+    "eta": "Next day"
+  },
+  "u4": {
+    "name": "SolarPower Installation",
+    "desc": "Rooftop solar panel installation, battery storage, grid tie-in services.",
+    "eta": "5-7 days"
+  },
+  "u5": {
+    "name": "FiberNet Internet Services",
+    "desc": "Commercial fibre broadband for buildings. Up to 1Gbps, unlimited data.",
+    "eta": "3-5 days"
+  },
+  "u6": {
+    "name": "GenSet Backup Power",
+    "desc": "Generator rental & installation, UPS systems, automatic transfer switches.",
+    "eta": "2 days"
+  }
+}
