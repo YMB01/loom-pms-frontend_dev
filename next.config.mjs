@@ -17,7 +17,7 @@ const nextConfig = {
     return [
       {
         source: "/api-proxy/:path*",
-        destination: "http://pms.loomsolutions.net/api/:path*",
+        destination: "https://pms.loomsolutions.net/api/:path*",
       },
     ];
   },
