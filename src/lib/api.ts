@@ -13,19 +13,14 @@ export const AUTH_TOKEN_COOKIE = "loom_pms_token";
 export function getApiBaseUrl(): string {
   const explicit = process.env.NEXT_PUBLIC_API_URL?.trim();
   if (explicit) {
-    let url = explicit.replace(/\/+$/, "");
-    // Prevent Mixed Content errors: If explicit is HTTP, but the site is HTTPS, upgrade the URL.
-    if (typeof window !== "undefined" && window.location.protocol === "https:" && url.startsWith("http://")) {
-      url = url.replace("http://", "https://");
-    }
-    return url;
+    return explicit.replace(/\/+$/, "");
   }
   // Dev: same-origin proxy (see next.config rewrites) — avoids direct :8000 / IPv6 issues
   if (process.env.NODE_ENV === "development" && typeof window !== "undefined") {
     return `${window.location.origin}/api-proxy`;
   }
   if (process.env.NODE_ENV !== "production") {
-    return "https://pms.loomsolutions.net/api";
+    return "http://127.0.0.1:8000/api";
   }
   throw new Error(
     "NEXT_PUBLIC_API_URL is required in production. Set it in Vercel → Environment Variables."

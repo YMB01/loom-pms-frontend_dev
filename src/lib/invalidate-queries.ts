@@ -12,6 +12,10 @@ export async function afterPropertyMutation(qc: QueryClient): Promise<void> {
   await invalidateResource(qc, ["properties", "dashboard", "units"]);
 }
 
+export async function afterUnitMutation(qc: QueryClient): Promise<void> {
+  await invalidateResource(qc, ["units", "properties", "leases", "dashboard"]);
+}
+
 export async function afterTenantMutation(qc: QueryClient): Promise<void> {
   await invalidateResource(qc, ["tenants", "dashboard", "leases"]);
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { forwardRef, type ReactNode } from "react";
 
 export function FormGroup({ children }: { children: ReactNode }) {
   return <div className="mb-4">{children}</div>;
@@ -32,43 +32,43 @@ const baseField =
 const inputClass = `${baseField} min-h-[44px] sm:min-h-[38px]`;
 const textareaClass = `${baseField} min-h-[100px] resize-y`;
 
-export function TextInput(
-  props: React.InputHTMLAttributes<HTMLInputElement> & { error?: string }
-) {
-  const { error, className = "", ...rest } = props;
+export const TextInput = forwardRef<
+  HTMLInputElement,
+  React.InputHTMLAttributes<HTMLInputElement> & { error?: string }
+>(function TextInput({ error, className = "", ...rest }, ref) {
   return (
     <>
-      <input {...rest} className={`${inputClass} ${className}`} />
+      <input ref={ref} {...rest} className={`${inputClass} ${className}`} />
       <FieldError message={error} />
     </>
   );
-}
+});
 
-export function TextArea(
-  props: React.TextareaHTMLAttributes<HTMLTextAreaElement> & { error?: string }
-) {
-  const { error, className = "", ...rest } = props;
+export const TextArea = forwardRef<
+  HTMLTextAreaElement,
+  React.TextareaHTMLAttributes<HTMLTextAreaElement> & { error?: string }
+>(function TextArea({ error, className = "", ...rest }, ref) {
   return (
     <>
-      <textarea {...rest} className={`${textareaClass} ${className}`} />
+      <textarea ref={ref} {...rest} className={`${textareaClass} ${className}`} />
       <FieldError message={error} />
     </>
   );
-}
+});
 
-export function SelectInput(
-  props: React.SelectHTMLAttributes<HTMLSelectElement> & { error?: string }
-) {
-  const { error, className = "", children, ...rest } = props;
+export const SelectInput = forwardRef<
+  HTMLSelectElement,
+  React.SelectHTMLAttributes<HTMLSelectElement> & { error?: string }
+>(function SelectInput({ error, className = "", children, ...rest }, ref) {
   return (
     <>
-      <select {...rest} className={`${inputClass} cursor-pointer ${className}`}>
+      <select ref={ref} {...rest} className={`${inputClass} cursor-pointer ${className}`}>
         {children}
       </select>
       <FieldError message={error} />
     </>
   );
-}
+});
 
 export function AlertInfo({ children }: { children: ReactNode }) {
   return (

@@ -28,6 +28,7 @@ import {
   formatEtb,
   unitStatusBadge,
 } from "@/components/dashboard/ListPageUi";
+import { UpsertUnitModal } from "@/components/modals/UpsertUnitModal";
 
 export function UnitsPage() {
   const tu = useTranslations("units");
@@ -49,6 +50,8 @@ export function UnitsPage() {
   const [propertyId, setPropertyId] = useState("");
   const [statusTab, setStatusTab] = useState("all");
   const [page, setPage] = useState(1);
+  const [upsertOpen, setUpsertOpen] = useState(false);
+  const [editingUnit, setEditingUnit] = useState<Unit | null>(null);
 
   const propsQ = useQuery({
     queryKey: propertyOptionsQueryKey,
@@ -91,6 +94,10 @@ export function UnitsPage() {
         actions={
           <button
             type="button"
+            onClick={() => {
+              setEditingUnit(null);
+              setUpsertOpen(true);
+            }}
             className="inline-flex h-[34px] items-center gap-1.5 rounded-md border border-loom-blue-600 bg-loom-blue-600 px-4 text-[13px] font-semibold text-white shadow-loom-xs transition hover:border-[#1d4ed8] hover:bg-[#1d4ed8]"
           >
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -169,6 +176,10 @@ export function UnitsPage() {
                       <Td>
                         <button
                           type="button"
+                          onClick={() => {
+                            setEditingUnit(u);
+                            setUpsertOpen(true);
+                          }}
                           className="rounded-md border border-loom-border bg-loom-surface px-2.5 py-1 text-[12px] font-semibold text-loom-text-700 shadow-loom-xs hover:bg-loom-hover"
                         >
                           {tProp("manage")}
@@ -215,6 +226,10 @@ export function UnitsPage() {
                     </CardField>
                     <button
                       type="button"
+                      onClick={() => {
+                        setEditingUnit(u);
+                        setUpsertOpen(true);
+                      }}
                       className="min-h-11 w-full rounded-md border border-loom-border bg-loom-surface px-3 text-[13px] font-semibold text-loom-text-700 shadow-loom-xs"
                     >
                       {tProp("manage")}
@@ -231,6 +246,14 @@ export function UnitsPage() {
           }
         />
       )}
+      <UpsertUnitModal
+        open={upsertOpen}
+        unit={editingUnit}
+        onClose={() => {
+          setUpsertOpen(false);
+          setEditingUnit(null);
+        }}
+      />
     </div>
   );
 }

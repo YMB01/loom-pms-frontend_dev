@@ -274,6 +274,14 @@ export function SettingsPage() {
               <p className="text-sm text-loom-text-400">{tc("loading")}</p>
             ) : (
               <>
+                <div className="rounded-lg border border-loom-border bg-loom-bg-2 px-3 py-2.5 text-sm dark:bg-loom-hover">
+                  <p className="font-semibold text-loom-text-900 dark:text-loom-text-50">
+                    {t("accountInfo")}
+                  </p>
+                  <p className="mt-1 text-loom-text-600 dark:text-loom-text-300">
+                    {showQ.data?.user?.name ?? tc("dash")} - {showQ.data?.user?.email ?? tc("dash")}
+                  </p>
+                </div>
                 <label className="block text-[13px] font-medium">{t("companyName")}</label>
                 <input
                   className="w-full rounded-lg border border-loom-border bg-loom-surface px-3 py-2 text-sm dark:border-loom-border"

@@ -46,7 +46,7 @@ async function fetchTenants(): Promise<Tenant[]> {
 }
 
 async function fetchUnits(): Promise<Unit[]> {
-  const p = await fetchPaginated<Unit>("/units", { per_page: 200, page: 1 });
+  const p = await fetchPaginated<Unit>("/units", { per_page: 100, page: 1 });
   return p.items;
 }
 
